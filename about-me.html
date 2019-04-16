@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Dani Fernàndez's portfolio. UX/UI designer">
+    <meta name="keywords" content="UX, User Expirience, UI, Product Designer, User Interface, IA, Information Arquitecture, web design, mobile design, app design, mobile first, pixel perfect, sketch, framer, zeplin, axure, xd, hotjar">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="/js/myscript.js"></script>
+    <title>Portfolio de Dani Fernández</title>
+</head>
+
+<body> 
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-12">
+            <section>
+                    <h2>Soy Dani Fernández, UX/UI designer de Barcelona.</h2>
+                    <p><br>Mis trabajos más recientes han estado en LaMagnética, dónde he diseñado páginas enteras, como pueden ser Barcelona Activa y Museu Dalí, landings para InmoCaixa e Invulnerables, entre otras. Recientemente he acabado el bootcamp de UX/UI Designer en IronHack, donde he desarrollado el diseño de dos aplicaciones enteras: Safely y TaxiSharing.<br><br>Me gradué en la Universitat de Barcelona con el título en Información y Documentación.  Me encató el mundo de la usabilidad y la arquitectura de información y continué mis estudios con un posgrado en la UOC sobre Diseño Web: Usuarios, Interfaces y Móviles. Finalmente, acabé los estudios universitarios con un Máster oficial en UNIR sobre Diseño de Experiencias de Usuario. Por último, he realizado un Bootcamp de UX/UI Design en IronHack.<br><br></p>
+                    <div class="row">
+                            <div class="mx-auto"><a href="cv/CV-Dani_Fernández.pdf"><button class="boton-cv">Resúmé</button></a></div>
+                    </div>
+            </section>
+            </div>
+            <div class="col-lg-6 center">
+                <img src="img/perfil.png" id="perfil">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+            <div class="row" style="padding-left:16px;">
+                <h2>Más sobre mi…</h2>
+            </div>
+            <h3>Fotografía</h3>
+            <div class="container">
+                    <div class="row">
+                            <div class="col-lg-4 thumb center">
+                                    <img class="img-thumbnail mas-info"
+                                         src="img/Instagram/1x1.png"
+                                         alt="Another alt text"
+                                         style="width:100%;"
+                                         >
+                            </div>
+                            <div class="col-lg-4 thumb center">
+                                    <img class="img-thumbnail"
+                                         src="img/Instagram/1x2.png"
+                                         alt="Another alt text"
+                                         style="width:100%;"
+                                         >
+                            </div>
+                            <div class="col-lg-4 thumb center">
+
+                                    <img class="img-thumbnail"
+                                         src="img/Instagram/1x3.png"
+                                         alt="Another alt text"
+                                         style="width:100%;"
+                                         >
+                            </div>
+                            <div class="col-lg-4 thumb center">
+                                    <img class="img-thumbnail"
+                                         src="img/Instagram/2x1.png"
+                                         alt="Another alt text"
+                                         style="width:100%;"
+                                         >
+                            </div>
+                            <div class="col-lg-4 thumb center">
+                                    <img class="img-thumbnail"
+                                         src="img/Instagram/2x2.png"
+                                         alt="Another alt text"
+                                         style="width:100%;"
+                                         >
+                            </div>
+                            <div class="col-lg-4 thumb center">
+                                <img class="img-thumbnail"
+                                         src="img/Instagram/3x3.png"
+                                         alt="Another alt text"
+                                         style="width:100%;"
+                                         >
+                            </div>
+                        </div>
+                        <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" id="image-gallery-title"></h4>
+                                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img id="image-gallery-image" class="img-responsive col-md-12" src="">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
+                                        </button>
+                
+                                        <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Animaciones</h3>
+                    <div class="container">
+                            <div class="row">
+                                    <div class="col-lg-4 thumb center">
+                                            <img class="img-thumbnail"
+                                                 src="img/Instagram/1x1.png"
+                                                 alt="Another alt text"
+                                                 style="width:100%;">
+                                    </div>
+                                    <div class="col-lg-4 thumb center">
+                                            <img class="img-thumbnail"
+                                                 src="img/Instagram/1x2.png"
+                                                 alt="Another alt text"
+                                                 style="width:100%;">
+                                    </div>
+                                    <div class="col-lg-4 thumb center">
+                                            <img class="img-thumbnail"
+                                                 src="img/Instagram/1x3.png"
+                                                 alt="Another alt text"
+                                                 style="width:100%;">
+                                    </div>
+                            </div>
+                            </div>
+                </div>
+        </div>
+
+<!-- footer -->
+<footer>
+        <div class="row projectes">
+        <div class="col-12 footer">
+            <h4>¿Hablamos?</h4>
+            <p>Siéntete libre de contactar conmigo.</p>
+            <p> <a class="nav-link active" href="mailto:danifdezalonso@gmail.com?subject=I've seen your website and...">danifdezalonso@gmail.com</a></li></p>
+        </div>
+        <div class="row redes-sociales">
+                <div class="col-3">
+                    <a href="https://www.linkedin.com/in/dani-fdez/"><img src="img/icons/linkedin.svg" height="32" width="32"></a>
+                </div>
+                <div class="col-3">
+                    <a href="https://github.com/danifdezalonso"><img src="img/icons/github.svg" height="32" width="32"></a>
+                </div>
+                <div class="col-3">
+                    <a href="http://twitter.com/dani_fdezalonso"><img src="img/icons/twitter.svg" height="32" width="32"></a>
+                </div>
+                <div class="col-3">
+                    <a href="http://instagram.com/danifernandezalonso"><img src="img/icons/instagram.svg" height="32" width="32"></a>
+                </div>
+            </div>
+    </ul>
+    </div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
