@@ -189,7 +189,7 @@ ul.grt-menu li.grt-dropdown:hover a {
 ul.grt-menu li.grt-dropdown ul.grt-dropdown-list {
 	display:none;
 	position:absolute;
-	margin: 0;
+	margin-top: 8px;
 	padding: 0;
 	min-width:150px;
 	animation: fadeIn 0.8s;

@@ -139,15 +139,15 @@ body#background {
 .boton-cv{
 	align:center;
 	display:inline-block;
-	padding:0.35em 1.2em;
+	padding:1em 3em;
 	border:0.1em solid black;
 	margin:0 0.3em 0.3em 0;
-	border-radius:0.12em;
+	border-radius:4px;
 	box-sizing: border-box;
 	text-decoration:none;
-	font-weight:300;
+	font-weight:600;
 	text-align:center;
-	transition: all 0.2s;
+	transition: all 0.3s;
 	}
 .boton-cv:hover{
 	color:white;
