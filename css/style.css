@@ -1,4 +1,7 @@
-
+*{
+	box-sizing: border-box;
+	font-family: "Eina";
+}
 .fullscreen-bg {
     position: fixed;
     top: 0;
@@ -24,31 +27,15 @@
 	font-family: "Eina";
 }
 
-.margin-top{
-	margin-top:6%;
-}
 .container p{
-	font-size:20px;
+	font-size:21px;
 	letter-spacing:-1px;
-
-}
-.case-study{
-	justify-content: center;
-	display:inline-block;
-	float:none;
-	margin-left:20%;
-	margin-right:20%;
-
 }
 
-.case-study-important{
-	background-color: #CABBE9;
+.container ul{
+	font-size:21px;
+	letter-spacing: -1px;
 }
-
-.cita-case-study{
-	padding: 2%;
-}
-
 
 .fullscreen-bg__video {
     position: absolute;
@@ -73,7 +60,7 @@ div a:hover {
     padding: 14px 24px;
     border: 0 none;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: -1px;
     text-transform: uppercase;
 }
 
@@ -137,17 +124,18 @@ body#background {
 
 /* empieza mi css */
 .boton-cv{
+	background: white;
 	align:center;
 	display:inline-block;
-	padding:1em 3em;
+	padding:0.35em 1.2em;
 	border:0.1em solid black;
 	margin:0 0.3em 0.3em 0;
-	border-radius:4px;
+	border-radius:0.12em;
 	box-sizing: border-box;
 	text-decoration:none;
-	font-weight:600;
+	font-weight:300;
 	text-align:center;
-	transition: all 0.3s;
+	transition: all 0.2s;
 	}
 .boton-cv:hover{
 	color:white;
@@ -348,9 +336,7 @@ nav a:hover {
 }
 
 #perfil{
-width:auto;
-height:100%;
-align:center;
+vertical-align: top;
 }
 
 .btn:focus, .btn:active, button:focus, button:active {
@@ -581,7 +567,7 @@ footer h3 {
 /* Mobile only style */
 @media (max-width:767px) {
 	.grt-menu-row {
-		margin-top:0px;
+		margin-top:24px;
 	}
 	.menu-container {
 		padding-left: 15px;
@@ -618,7 +604,7 @@ footer h3 {
 
 	ul.open-grt-menu {
 		position: fixed;
-		background-color:rgba(255, 255, 255)!important;
+		background-color:rgba(255, 255, 255);
 		width: 100%;
 		left: 0;
 		right: 0;
