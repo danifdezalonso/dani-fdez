@@ -24,9 +24,12 @@
 	font-family: "Eina";
 }
 
+.margin-top{
+	margin-top:6%;
+}
 .container p{
-	font-size:1.5rem;
-	letter-spacing:1px;
+	font-size:20px;
+	letter-spacing:-1px;
 
 }
 .case-study{
@@ -345,7 +348,7 @@ nav a:hover {
 }
 
 #perfil{
-vertical-align: top;
+width:100%;
 }
 
 .btn:focus, .btn:active, button:focus, button:active {
