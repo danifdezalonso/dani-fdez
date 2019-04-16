@@ -348,7 +348,9 @@ nav a:hover {
 }
 
 #perfil{
-width:100%;
+width:auto;
+height:100%;
+align:center;
 }
 
 .btn:focus, .btn:active, button:focus, button:active {
@@ -616,7 +618,7 @@ footer h3 {
 
 	ul.open-grt-menu {
 		position: fixed;
-		background-color:rgba(255, 255, 255);
+		background-color:rgba(255, 255, 255)!important;
 		width: 100%;
 		left: 0;
 		right: 0;
