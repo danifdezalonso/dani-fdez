@@ -559,7 +559,6 @@ ul.grt-menu li a:hover {
 	.grt-mobile-button {
 		display:inline-block;
 		position:absolute;
-		right:10px!important;
 		top:10px;
 		background:#FFF;
 		color:#3d3d3d;
@@ -574,7 +573,6 @@ ul.grt-menu li a:hover {
 	.grt-mobile-button .line1, .grt-mobile-button .line2, .grt-mobile-button .line3 {
 		width: 35px;
 		height: 4px;
-		background-color: #333;
 		margin: 6px 0;
 		transition: 0.4s;
 		display:block;
@@ -651,7 +649,7 @@ ul.grt-menu li a:hover {
 
 @media (max-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
-    width: 300%;
+    width: 0%;
     left: -100%;
 	}
 	.my-name {
@@ -665,8 +663,23 @@ ul.grt-menu li a:hover {
 	.center-img {
 		margin-bottom: 40px;
 	}
-}
+	.box {
+		margin-bottom:0px;
+	}
 
+}
+@media screen and (min-width: 100px) and (max-width: 480px) {
+	
+	.center-img {
+		margin-bottom: 40px;
+	}
+	.box {
+		margin-bottom:0px;
+	}
+	.fullscreen-bg  {
+    background: white;
+  }
+}
 @media (min-width: 481px) and (max-width: 767px) {
 	
  h2 {
@@ -680,12 +693,6 @@ ul.grt-menu li a:hover {
  .container p{
  letter-spacing: -1px;
 }
-
-.box {
-	margin-bottom:0px;
-}
-
-
 
   
 }

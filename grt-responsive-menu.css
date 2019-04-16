@@ -64,7 +64,6 @@ header {
 	left:0;
 	right:0;
 	width:100%;
-	background:#FFF; /* color de fondo del menú */
 	height:60px;
 	z-index:9999;
 }
