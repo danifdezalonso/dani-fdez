@@ -9,6 +9,17 @@
     z-index: -100;
 }
 
+.a-container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 82.5rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 30px;
+	padding: 0 8vw;
+	position: relative;
+}
+
 .container{
 	font-family: "Eina";
 }
@@ -157,10 +168,10 @@ body#background {
 	}
 
 .bienvenida {
-	padding-top:10%;
+	padding-top:12.5%;
 	line-height: 1.25;
 	letter-spacing: -1px;
-	margin-bottom: 20%;
+	margin-bottom: 10%;
 	color: black;
 }
 
@@ -190,7 +201,7 @@ h2 {
 	font-size:3rem;
 }
 h3 {
-	font-size:22px;
+	font-size:1.75rem;
 }
 .logo {
 	float:left;
@@ -355,16 +366,6 @@ vertical-align: top;
 	border:0px!important;
 }
 
-
-.a-container {
-    margin: 0 auto;
-    max-width: 82.5rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 30px;
-    padding: 0 8vw;
-    position: relative;
-}
 .a-left {
     text-align: left;
 }
@@ -421,6 +422,8 @@ header nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+
+	margin-top:24px;
 }
 
 a.grt-logo {
@@ -434,6 +437,7 @@ a.grt-logo img {
 
 .grt-mobile-button {
 	display:none;
+	background-color:pink;
 }
 
 .grt-mobile-button:focus {
@@ -481,6 +485,21 @@ ul.grt-menu li a {
 	text-decoration: none;
 }
 
+footer a {
+	color:white;
+	text-decoration: underline;
+}
+
+footer a:hover {
+	color:gray;
+	text-decoration: underline;
+}
+
+
+.socialnav a {
+	color:white;
+	text-decoration: underline;
+}
 
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -528,6 +547,13 @@ ul.grt-menu li a:hover {
     text-decoration: underline;
 }
 
+footer {
+	font-family: "Eina"
+}
+
+footer h3 {
+	font-size:24px;
+}
 /* Desktop only style */
 @media (min-width:768px) {
 
@@ -682,7 +708,7 @@ ul.grt-menu li a:hover {
 }
 @media (min-width: 481px) and (max-width: 767px) {
 	
- h2 {
+ footer h2 {
 	 font-size:40px;
 
  }

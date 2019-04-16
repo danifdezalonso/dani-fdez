@@ -1,4 +1,6 @@
-footer {
+
+
+.footer {
 	background-color:black;
 	display: grid;
     background: #000;
@@ -18,7 +20,6 @@ footer {
 section#mainfooter {
     padding: 10vh 0;
 }
-
 
 .a-container {
     margin: 0 auto;
@@ -52,6 +53,24 @@ nav.socialnav a {
     -ms-transition: all 0.3s;
     transition: all 0.3s;
 }
+
+.linkedin a:hover{
+	color:#0077b5;
+}
+
+.medium a:hover{
+	color:#00ab6c;
+}
+
+.twitter a:hover{
+	color:#0e76a8;
+}
+
+.instagram a:hover{
+	color:#E1306C;
+}
+
+
 
 section {
 	display: block;
@@ -211,6 +230,7 @@ ul.grt-menu li a:hover {
 	ul.grt-menu li.grt-dropdown ul.grt-dropdown-list li {
 		display:block;
 	}
+	
 }
 
 /* Tablet only style */
@@ -222,6 +242,9 @@ ul.grt-menu li a:hover {
 
 /* Mobile only style */
 @media (max-width:767px) {
+	.footer {
+		margin-top: 0vh;
+	}
 
 	.menu-container {
 		padding-left: 15px;
