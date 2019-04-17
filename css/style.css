@@ -2,6 +2,9 @@
 	box-sizing: border-box;
 	font-family: "Eina";
 }
+
+
+
 .fullscreen-bg {
     position: fixed;
     top: 0;
@@ -36,6 +39,7 @@ body#background{
 	position: relative;
 }
 
+
 .container{
 	font-family: "Eina";
 }
@@ -43,6 +47,8 @@ body#background{
 .container p{
 	font-size:21px;
 	letter-spacing:-1px;
+	font-weight:500;
+
 }
 
 .container ul{
@@ -63,8 +69,14 @@ body#background{
 }
 
 .margin-top {
-	margin-top:100px;
+	margin-top:100px!important;
 }
+
+.margin-75 {
+	margin:auto;
+	width:75%;
+}
+
 .center{
 	text-align: center;
 }
@@ -133,22 +145,22 @@ div a:hover {
 
 /* empieza mi css */
 .boton-cv{
-	background: white;
+	background: none;
 	align:center;
 	display:inline-block;
-	padding:0.35em 1.2em;
+	padding:0.75em 2em;
 	border:0.1em solid black;
 	margin:0 0.3em 0.3em 0;
 	border-radius:0.12em;
 	box-sizing: border-box;
 	text-decoration:none;
-	font-weight:300;
+	font-weight:600;
 	text-align:center;
 	transition: all 0.2s;
 	}
 .boton-cv:hover{
-	color:white;
-	background-color:black;
+	color:black;
+	background-color:white;
 	}
 	@media all and (max-width:30em){
 	 a.boton-cv{
@@ -203,6 +215,7 @@ h1 {
 
 h2 {
 	font-size:3rem;
+	font-weight:800;
 }
 h3 {
 	font-size:1.75rem;
@@ -614,6 +627,7 @@ footer h3 {
 
  .container p{
  letter-spacing: -1px;
+ 
 }
 
   
@@ -736,7 +750,11 @@ footer h3 {
 	}
 
 	.margin-top{
-		margin-top: 50px;
+		margin-top: 10px!important;
+	}
+
+	.margin-75{
+		width: 100%;
 	}
 }
 
