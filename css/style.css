@@ -149,13 +149,16 @@ body#background {
 	}
 
 	.leer-mas-link{
+		animation: fadeIn 4s;
+
 		text-decoration: none;
-		font-size: 2rem;
+		font-size: 1.5rem;
 		line-height: 2;
 		color: #292929;
 		display: inline-block;
 		padding-top:3rem;
 		text-decoration: none;
+
 	}
 
 .bienvenida {
@@ -181,6 +184,7 @@ body#background {
 	font-weight: 700;
 	margin:0;
 	padding:0;
+	animation: fadeIn 2s;
 }
 
 
@@ -571,6 +575,7 @@ footer h3 {
 	}
 	.box {
 		margin-bottom:0px;
+
 	}
 
 }
