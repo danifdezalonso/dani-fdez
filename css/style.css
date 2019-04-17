@@ -12,6 +12,19 @@
     z-index: -100;
 }
 
+body#background{
+	background-image: url(../img/fondo.jpg) ;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: #999;
+}
+
+.img-thumbnail {
+	border:0px!important;
+
+}
 .a-container {
 	margin: 0 auto;
 	width: 100%;
@@ -49,6 +62,9 @@
 	font-weight: 500;
 }
 
+.margin-top {
+	margin-top:100px;
+}
 .center{
 	text-align: center;
 }
@@ -114,13 +130,6 @@ div a:hover {
 	padding:5%;
 }
 
-body#background {
-	background: url("../img/background.jpg") no-repeat 50% 50% fixed;
-	background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-webkit-background-size: cover;
-	}
 
 /* empieza mi css */
 .boton-cv{
@@ -546,7 +555,7 @@ footer {
 }
 
 footer h3 {
-	font-size:30px;
+	font-size:3rem;
 }
 
 
@@ -724,6 +733,10 @@ footer h3 {
 	}
 	footer h3 {
 		font-size:22px;
+	}
+
+	.margin-top{
+		margin-top: 50px;
 	}
 }
 
