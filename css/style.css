@@ -3,6 +3,12 @@
 	font-family: "Eina";
 }
 
+div a:hover {
+  color: black;
+  -webkit-text-decoration-color: red; /* safari still uses vendor prefix */
+ text-decoration-color: gray;
+}
+
 
 
 .fullscreen-bg {
@@ -39,21 +45,22 @@ body#background{
 	position: relative;
 }
 
-
+.link{
+	color: black;
+	text-decoration: underline;
+}
 .container{
 	font-family: "Eina";
 }
 
 .container p{
 	font-size:21px;
-	letter-spacing:-1px;
 	font-weight:500;
 
 }
 
 .container ul{
 	font-size:21px;
-	letter-spacing: -1px;
 }
 
 .fullscreen-bg__video {
@@ -88,7 +95,6 @@ div a:hover {
     padding: 14px 24px;
     border: 0 none;
     font-weight: 700;
-    letter-spacing: -1px;
     text-transform: uppercase;
 }
 
@@ -149,28 +155,29 @@ div a:hover {
 	align:center;
 	display:inline-block;
 	padding:0.75em 2em;
-	border:0.1em solid black;
+	border: 0.1em solid transparent;
 	margin:0 0.3em 0.3em 0;
 	border-radius:0.12em;
 	box-sizing: border-box;
 	text-decoration:none;
 	font-weight:600;
 	text-align:center;
-	transition: all 0.2s;
-	}
-.boton-cv:hover{
-	color:black;
-	background-color:white;
-	}
+	transition: all 0.2s;}
+
+	.boton-cv:hover{
+		border:0.1em solid black;
+		}
+	
 	@media all and (max-width:30em){
 	 a.boton-cv{
 		display:block;
 		margin:0.4em auto;
+		border:0.1em solid black;
 	 }
 	}
 
 	.leer-mas-link{
-		animation: fadeIn 4s;
+		animation: fadeIn 1s;
 		text-decoration: none!important;
 		font-size: 1.5rem;
 		line-height: 2;
@@ -186,7 +193,6 @@ div a:hover {
 .bienvenida {
 	padding-top:12.5%;
 	line-height: 1.25;
-	letter-spacing: -1px;
 	margin-bottom: 10%;
 	color: black;
 }
@@ -202,7 +208,7 @@ div a:hover {
 	font-weight: 700;
 	margin:0;
 	padding:0;
-	animation: fadeIn 2s;
+	animation: fadeIn 1s;
 }
 
 
@@ -296,7 +302,6 @@ nav a:hover {
 
 .box p{
 	font-size: 18px;
-	letter-spacing:-1px;
 }
 
 .redes-sociales {
@@ -533,7 +538,7 @@ ul.grt-menu li.grt-dropdown ul.grt-dropdown-list {
 	margin: 0;
 	padding: 0;
 	min-width:150px;
-	animation: fadeIn 0.8s;
+	animation: fadeIn 1s;
 	z-index: 999;
 }
 
@@ -620,14 +625,7 @@ footer h3 {
 
  p {
 	 font-size:24px;
- }
-
- .container p{
- letter-spacing: -1px;
- 
-}
-
-  
+ } 
 }
 
 /* Desktop only style */
@@ -672,7 +670,13 @@ footer h3 {
 		border: 0;
 		width:35px;
 	}
-
+	
+	div a:hover {
+		color: black;
+		-webkit-text-decoration-color: red; /* safari still uses vendor prefix */
+	 text-decoration-color: gray;
+	}
+	
 	/* X de mobile */
 	.grt-mobile-button .line1, .grt-mobile-button .line2, .grt-mobile-button .line3 {
 		width: 35px;
