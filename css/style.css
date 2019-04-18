@@ -65,6 +65,7 @@ body#background-capstone{
 
 .img-thumbnail {
 	border:0px!important;
+	background-color: transparent!important;
 
 }
 .a-container {
