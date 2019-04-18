@@ -21,14 +21,47 @@ div a:hover {
     z-index: -100;
 }
 
-body#background{
-	background-image: url(../img/fondo.jpg) ;
+body#background-about-me{
+	background-image: url(../img/fondos/fondo.jpg) ;
 	background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
 	background-size:  cover;
 	background-color: #999;
 }
+
+body#background-wellness{
+	background-image: url(../img/fondos/fondo-wellness.jpg) ;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+
+body#background-bac{
+	background-image: url(../img/fondos/fondo-bac.jpg) ;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+
+body#background-dali{
+	background-image: url(../img/fondos/fondo-dali.jpg) ;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+
+body#background-capstone{
+	background-image: url(../img/fondos/fondo-capstone.jpg) ;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+
 
 .img-thumbnail {
 	border:0px!important;
@@ -151,6 +184,7 @@ div a:hover {
 
 /* empieza mi css */
 .boton-cv{
+	font-size:24px;
 	background: none;
 	align:center;
 	display:inline-block;
@@ -258,10 +292,6 @@ nav a:hover {
 	padding: 40px 40px 0px 40px !important;
 	margin-bottom:120px;
 
-}
-
-.mobils {
-	vertical-align:bottom;
 }
 
 .capstone {
