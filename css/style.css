@@ -510,7 +510,8 @@ footer a {
 
 footer a:hover {
 	color:white;
-	text-decoration: underline;
+	-webkit-text-decoration-color: gray; /* safari still uses vendor prefix */
+	text-decoration-color: gray;
 }
 
 
@@ -673,7 +674,7 @@ footer h3 {
 	
 	div a:hover {
 		color: black;
-		-webkit-text-decoration-color: red; /* safari still uses vendor prefix */
+		-webkit-text-decoration-color: gray; /* safari still uses vendor prefix */
 	 text-decoration-color: gray;
 	}
 	
