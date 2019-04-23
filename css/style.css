@@ -29,6 +29,13 @@ body#background-wellness{
 	background-size:  cover;
 }
 
+body#background-about-me{
+	background-image: url(../img/fondos/fondo.jpg) ;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
 
 body#background-bac{
 	background-image: url(../img/fondos/fondo-bac.jpg) ;
@@ -189,10 +196,13 @@ div a:hover {
 	text-decoration:none;
 	font-weight:600;
 	text-align:center;
-	transition: all 0.2s;}
+	transition: all 0.2s;
+	border:0.1em solid black;
+}
 
 	.boton-cv:hover{
-		border:0.1em solid black;
+		color:white;
+		background:black;
 		}
 	
 	@media all and (max-width:30em){
