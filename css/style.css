@@ -15,6 +15,207 @@ div a:hover {
 }
 
 
+/* mock ups en área de work*/
+
+.hero-video-container{
+  min-height: 90vh;
+  min-width: 100vw;
+  display: flex;
+  align-items:center;
+  align-content: center;
+  justify-content: center;
+}
+
+.hero-video-container video{
+  min-height: 100%;
+  width: auto;
+}
+
+section.case-block {
+  display: grid;
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: 1px solid #F0F0F0;
+  padding: 48px 0;
+  overflow: hidden;
+}
+
+
+.image-only picture{
+  width: 100%;
+  background: #F8F8F9;
+  padding: 32px 0;
+  overflow: hidden;
+}
+
+.image-only.degrees picture,
+.degrees{
+  background: url("../img/degrees-hero-bg.svg") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
+
+section.case-block.image-only picture img{
+  max-width: 90%;
+}
+
+section.case-block.image-only picture.full-screen-image img{
+  width: auto;
+  max-width: none;
+  max-height: 220px;
+}
+
+section.case-block.two-column .a-container,
+section.case-block.three-column .a-container{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr;
+}
+
+.left-col, .right-col{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr;
+}
+
+.iphone-container{
+  margin-left: auto;
+  margin-right: auto;
+  right: auto;
+  left: auto;
+  float: none;
+  height:582px;
+  width: 315px;
+}
+
+.iphone-container.iphone8{
+  height: 582px;
+}
+
+.iphone-container.iphone-se{
+  height: 582px;
+}
+
+.iphonex-mockup{
+  position: relative;
+  top: -21px;
+  left: -14px;
+  width: 468px;
+  height: 734px;
+  background-size:468px 734px;
+  background-repeat: no-repeat;
+  background-image: url("../img/work/iphonex.png");
+}
+
+.iphone-mockup{
+  position: relative;
+  top: -20px;
+  left: -5px;
+  width: 438px;
+  height: 717px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../img/work/iphone8@2x.png");
+}
+.iphone-mockup.light{
+  background-image: url("../img/work/iphone8-light@2x.png");
+}
+
+.iphone-se-mockup{
+  position: relative;
+  top: -20px;
+  left: -5px;
+  width: 438px;
+  height: 717px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../img/iphoneSE@2x.png");
+}
+
+.inline-video-container{
+  position: absolute;
+  width: 252px;
+  top: 39px;
+  left: 45px;
+}
+
+.iphone-mockup > .inline-video-container{
+  position: absolute;
+  width: 238px;
+  top: 86px;
+  left: 43px;
+}
+
+.iphone-se-mockup > .inline-video-container{
+  position: absolute;
+  width: 235px;
+  top: 107px;
+  left: 43px;
+}
+
+.inline-video{
+  z-index: -1;
+  position: relative;
+  height: 545px;
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition-property: visibility, opacity;
+  transition-property: visibility, opacity;
+  -webkit-transition-duration: 0ms,200ms;
+  transition-duration: 0ms,200ms;
+  -webkit-transition-timing-function: linear,linear;
+  transition-timing-function: linear,linear;
+  -webkit-transition-delay: 200ms,0ms;
+  transition-delay: 200ms,0ms;
+  }
+
+.iphone-mockup > .inline-video-container > .inline-video{
+  height: 424px;
+}
+
+.iphone-se-mockup > .inline-video-container > .inline-video{
+  height: 413px;
+}
+
+.inline-video video,
+.inline-video img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+  .copy-column{
+    text-align: center;
+    grid-gap: 30px;
+    display: grid;
+    align-content: center;
+  }
+
+  .image-wrapper.image-only{
+    display: grid;
+    justify-content: center;
+    padding: 10vh 0;
+    z-index: 1;
+  }
+
+  .left-col.image-wrapper{
+    order:2;
+  }
+
+  .case-block.three-column .left-col.image-wrapper{
+    order:2;
+  }
+
+  .case-block.three-column .mid-col.copy-column{
+    order: 0;
+  }
+
+
+/* fin de mockups */
 
 .fullscreen-bg {
     position: fixed;
@@ -91,9 +292,8 @@ body#background-capstone{
 
 .container p{
 	font-size:21px;
-	font-weight:500;
-
 }
+
 
 .container ul{
 	font-size:21px;
@@ -115,11 +315,22 @@ body#background-capstone{
 	margin-top:100px!important;
 }
 
+
 .margin-75 {
 	margin:auto;
 	width:75%;
 }
 
+.subtitulo{
+	font-weight: 500;
+	color:#9EA0A6;
+	font-size: 1.25rem;
+}
+
+.titulo {
+	font-weight:500;
+	font-size:3rem;
+}
 .center{
 	text-align: center;
 }
@@ -663,7 +874,7 @@ footer h3 {
 
 
  p {
-	 font-size:24px;
+	 font-size:1.125rem;
  } 
 }
 
