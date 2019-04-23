@@ -3,10 +3,15 @@
 	font-family: "Eina";
 }
 
+.active {
+	text-decoration: overline!important;
+	text-decoration-color:black!important;
+}
+
 div a:hover {
   color: black;
-  -webkit-text-decoration-color: red; /* safari still uses vendor prefix */
- text-decoration-color: gray;
+  -webkit-text-decoration-color: gray; /* safari still uses vendor prefix */
+ text-decoration-color:transparent;
 }
 
 
@@ -60,13 +65,11 @@ body#background-capstone{
 	background-attachment: fixed;
 	background-size:  cover;
 }
-
-
 .img-thumbnail {
 	border:0px!important;
 	background-color: transparent!important;
-
 }
+
 .a-container {
 	margin: 0 auto;
 	width: 100%;
@@ -491,7 +494,7 @@ a.grt-logo img {
 
 .grt-mobile-button {
 	display:none;
-	background-color:pink;
+	background-color:white;
 }
 
 .grt-mobile-button:focus {
@@ -512,7 +515,6 @@ ul.grt-menu {
 }
 
 ul.grt-menu:after {
-	content:"";
 	clear:both;
 	display:block;
 }
@@ -547,7 +549,7 @@ footer a {
 footer a:hover {
 	color:white;
 	-webkit-text-decoration-color: gray; /* safari still uses vendor prefix */
-	text-decoration-color: gray;
+	text-decoration-color: black;
 }
 
 

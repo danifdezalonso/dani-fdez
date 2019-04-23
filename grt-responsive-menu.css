@@ -17,9 +17,14 @@
     transition-delay: 0s;
 }
 
+.footer-linkedin {
+	background-color: #0077b5;
+}
+
 section#mainfooter {
     padding: 10vh 0;
 }
+
 
 .a-container {
     margin: 0 auto;
@@ -55,7 +60,7 @@ nav.socialnav a {
 }
 
 .linkedin a:hover{
-	color:#0077b5;
+	/* color:#0077b5; */
 }
 
 .medium a:hover{
@@ -144,11 +149,7 @@ ul.grt-menu {
 	list-style-type: none;
 }
 
-ul.grt-menu:after {
-	content:"";
-	clear:both;
-	display:block;
-}
+
 
 ul.grt-menu li {
 	display: inline-block;
@@ -172,6 +173,9 @@ ul.grt-menu li a {
 	text-decoration: none;
 }
 
+ul.grt-menu li.active a{
+	text-decoration: underline;
+}
 
 @keyframes fadeIn {
     from { opacity: 0; }
