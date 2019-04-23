@@ -21,14 +21,6 @@ div a:hover {
     z-index: -100;
 }
 
-body#background-about-me{
-	background-image: url(../img/fondos/fondo.jpg) ;
-	background-position: center center;
-	background-repeat:  no-repeat;
-	background-attachment: fixed;
-	background-size:  cover;
-}
-
 body#background-wellness{
 	background-image: url(../img/fondos/fondo-wellness.jpg) ;
 	background-position: center center;
@@ -36,6 +28,7 @@ body#background-wellness{
 	background-attachment: fixed;
 	background-size:  cover;
 }
+
 
 body#background-bac{
 	background-image: url(../img/fondos/fondo-bac.jpg) ;
