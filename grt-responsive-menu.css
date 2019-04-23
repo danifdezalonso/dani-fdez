@@ -17,8 +17,9 @@
     transition-delay: 0s;
 }
 
+/* Colores del hover de footer*/
 .footer-linkedin {
-	background-color: #0077b5;
+	background-color: #0e76a8;
 }
 
 .footer-medium {
@@ -26,13 +27,13 @@
 }
 
 .footer-twitter {
-	background-color: #0e76a8;
+	background-color: #00acee;
 }
 
 .footer-instagram {
 	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);5;
 }
-
+/* fin de colores del footer*/
 
 section#mainfooter {
     padding: 10vh 0;
