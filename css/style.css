@@ -274,6 +274,9 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+.nav-footer a:hover {
+	text-decoration-color: black;
+}
 .projectes{
 	justify-content:center;
 }
