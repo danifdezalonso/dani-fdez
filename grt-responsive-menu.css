@@ -21,6 +21,19 @@
 	background-color: #0077b5;
 }
 
+.footer-medium {
+	background-color: #00ab6c;
+}
+
+.footer-twitter {
+	background-color: #0e76a8;
+}
+
+.footer-instagram {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);5;
+}
+
+
 section#mainfooter {
     padding: 10vh 0;
 }
@@ -58,23 +71,6 @@ nav.socialnav a {
     -ms-transition: all 0.3s;
     transition: all 0.3s;
 }
-
-.linkedin a:hover{
-	/* color:#0077b5; */
-}
-
-.medium a:hover{
-	color:#00ab6c;
-}
-
-.twitter a:hover{
-	color:#0e76a8;
-}
-
-.instagram a:hover{
-	color:#E1306C;
-}
-
 
 
 section {
