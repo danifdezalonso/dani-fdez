@@ -40,7 +40,7 @@ section.case-block {
   display: grid;
   margin: 0 auto;
   width: 100%;
-  padding-bottom: 80px;
+  padding-bottom: 5rem;
   overflow: hidden;
 }
 
@@ -86,7 +86,8 @@ section.case-block.three-column .a-container{
 
 .iphone-container{
   margin-left: auto;
-  margin-right: auto;
+	margin-right: auto;
+	margin-bottom: 16px;
   right: auto;
   left: auto;
   float: none;
@@ -107,7 +108,7 @@ section.case-block.three-column .a-container{
   top: -21px;
   left: -14px;
   width: 468px;
-  height: 734px;
+	height: 734px;
   background-size:468px 734px;
   background-repeat: no-repeat;
   background-image: url("../img/work/iphonex.png");
