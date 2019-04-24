@@ -295,6 +295,7 @@ ul.grt-menu li a:hover {
 		justify-content: center;
 		flex-direction: column;
 		text-align: center;
+		z-index: 1;
 	}
 
 	.grt-mobile-button-open {
