@@ -83,9 +83,10 @@ blockquote span{
 }
 
 section.case-block {
-  display: grid;
+		width: 100%;
+		display: grid;
   margin: 0 auto;
-  width: 90%;
+
   padding-bottom: 5rem;
   overflow: hidden;
 }
@@ -955,6 +956,10 @@ footer h3 {
 
 /* Mobile only style */
 @media (max-width:767px) {
+
+section.case-block {
+	width: 100%;}
+
 	.grt-menu-row {
 		margin-top:24px;
 	}
