@@ -4,10 +4,15 @@
 }
 
 .active {
-	text-decoration: overline!important;
 	text-decoration-color:black!important;
 }
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 70%;
+	height:100%;
+}
 div a:hover {
   color: black;
   -webkit-text-decoration-color: gray; /* safari still uses vendor prefix */
@@ -849,13 +854,10 @@ footer h3 {
 		font-size:1.25rem;
 	}
 
-	.center-img {
-		margin-bottom: 40px;
-	}
 	.box {
-		margin-bottom:0px;
-
+		margin-bottom:80px;
 	}
+	img {}
 
 }
 @media screen and (min-width: 100px) and (max-width: 480px) {
