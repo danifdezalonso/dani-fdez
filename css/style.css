@@ -25,6 +25,40 @@ div a:hover {
 	}
 	
 
+/*blockquote*/
+blockquote{
+  font-size: 1.4em;
+  margin:50px auto;
+  font-style:italic;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid black;
+  line-height:1.6;
+  position: relative;
+  background:transparent;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:black;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
 /* mock ups en área de work*/
 
 .hero-video-container{
@@ -471,8 +505,6 @@ div a:hover {
 	padding:0;
 	animation: fadeIn 1s;
 }
-
-
 h1 {
 	visibility:hidden;
 }
@@ -508,9 +540,12 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-.nav-footer a:hover {
-	text-decoration-color: black;
+.nav-footer a {
+	text-decoration: underline;
+	color: black;
 }
+.nav-footer a:hover {
+text-decoration: none;}
 .projectes{
 	justify-content:center;
 }
