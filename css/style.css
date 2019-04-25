@@ -34,8 +34,8 @@ div a:hover {
 
 /*blockquote*/
 blockquote{
-  font-size: 1.4em;
-  margin:50px auto;
+	font-size: 1.15em;
+	margin:50px auto;
   font-style:italic;
   padding:1.2em 30px 1.2em 75px;
   border-left:8px solid black;
@@ -54,15 +54,11 @@ blockquote::before{
   top:-10px;
 }
 
-blockquote::after{
-  content: '';
-}
-
 blockquote span{
   display:block;
-  color:#333333;
+	color:#333333;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 800;
   margin-top:1em;
 }
 
