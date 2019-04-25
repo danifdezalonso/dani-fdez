@@ -19,6 +19,13 @@ div a:hover {
  text-decoration-color:transparent;
 }
 
+.projectes article {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
 
 .width-100{
 	width: 100%;
