@@ -952,6 +952,9 @@ footer h3 {
 
 /* Mobile only style */
 @media (max-width:767px) {
+	.center {
+		width:100%;
+	}
 section.case-block {
 	width: 100%;}
 
