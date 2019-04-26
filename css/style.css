@@ -955,6 +955,10 @@ footer h3 {
 	.center {
 		width:100%;
 	}
+	section.case-block {
+		margin-bottom: 1.5rem;
+		padding-bottom: 1rem;
+	}
 section.case-block {
 	width: 100%;}
 
