@@ -32,10 +32,6 @@ div a:hover {
 	}
 	
 
-iframe {
-	transform:scale(0.75);
-}
-
 /*blockquote*/
 blockquote{
 	font-size: 1.15em;
@@ -956,9 +952,6 @@ footer h3 {
 
 /* Mobile only style */
 @media (max-width:767px) {
-	iframe {
-		transform:scale(0.75);
-	}
 section.case-block {
 	width: 100%;}
 
