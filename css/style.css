@@ -82,8 +82,7 @@ section.case-block {
 		width: 100%;
 		display: grid;
   margin: 0 auto;
-
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   overflow: hidden;
 }
 
