@@ -182,7 +182,7 @@
         </div>
       </div>
         <div class="row justify-content-md-center">
-          <img src="../img/Wellness/Journey-wellness.png" class="center" style="width:100%;">
+          <img src="../img/Wellness/Journey-wellness.png" class="center">
         </div>
   </div>
   </section>
@@ -233,6 +233,25 @@
                </div>
            </div>
              </div>
+    </div>
+    </section>
+
+    <!--Design system-->
+    <section class="case-block"data-aos="fade-up">
+      <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-8 col-xs-12">
+              <h3>Design system</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio amet animi facilis similique perspiciatis consequuntur fugiat neque quos nemo assumenda, ab incidunt necessitatibus esse numquam perferendis et debitis, excepturi in! Rerum amet impedit non ratione nemo minus repellendus officia, a expedita incidunt commodi quo possimus soluta exercitationem fugit. Rem et, velit adipisci nesciunt tempore repellendus aspernatur natus repudiandae architecto soluta sit earum impedit dolorum distinctio necessitatibus quibusdam est iusto beatae possimus, voluptatem laudantium? Commodi voluptates sequi dolores exercitationem laborum libero sed quae nihil cum vero voluptatem assumenda illo voluptatum tempore voluptate quod rem perspiciatis natus ipsum dolorum, vitae doloribus dicta.</p>
+          </div>
+        </div>
+          <div class="row justify-content-md-center">
+            <picture>
+              <source media="(min-width: 650px)" srcs="../img/Wellness/ds.png">
+              <source media="(min-width: 465px)" srcset="../img/Wellness/ds.png">
+              <img src="../img/Wellness/ds-mobile.png" alt="Design System" style="width:100%;">          
+            </picture>         
+          </div>
     </div>
     </section>
 
@@ -372,15 +391,18 @@
   
            <!-- GRT Youtube Popup -->
            <script src="../grt-responsive-menu.js"></script>
-           <!-- AOS Libreria de animación  -->
-           <script>AOS.init({
-            duration: 600,
-          })
+           <!--Animaciones AOS quitadas en mobile-->
+           <script>
+            AOS.init({
+              disable: function() {
+              var maxWidth = 800;
+              return window.innerWidth < maxWidth;
+              }
+            });
           </script>
-           <script src="../js/footer.js">
-          
-               // FOOTER COLOR
-           </script>
+          <!--Footer color-->
+           <script src="../js/footer.js"></script> 
+          <!--Flecha arriba al hacer scrolldown-->
            <script>
               // When the user scrolls down 20px from the top of the document, show the button
               window.onscroll = function() {scrollFunction()};
