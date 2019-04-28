@@ -83,7 +83,6 @@ div a:hover {
   -webkit-text-decoration-color: gray; /* safari still uses vendor prefix */
  text-decoration-color:transparent;
 }
-
 .projectes article {
 	display: flex;
 	flex-direction: column;
@@ -437,6 +436,12 @@ body#background-capstone{
 .center{
 	text-align: center;
 }
+div a {
+	color: black;
+	text-decoration: underline;
+
+}
+
 div a:hover {
 	color: black;
 }
@@ -597,6 +602,7 @@ nav a {
 }
 nav li {
 	margin:1%;
+	
 }
 nav a:hover {
 	color: black;
