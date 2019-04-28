@@ -154,22 +154,13 @@ section.case-block {
 
 .image-only picture{
   width: 100%;
-  background: #F8F8F9;
   padding: 32px 0;
   overflow: hidden;
 }
 
-.image-only.degrees picture,
-.degrees{
-  background: url("../img/degrees-hero-bg.svg") no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-}
-
-
 
 section.case-block.image-only picture img{
-  max-width: 90%;
+	max-width: 60%;
 }
 
 section.case-block.image-only picture.full-screen-image img{
@@ -582,12 +573,11 @@ h1 {
 	visibility:hidden;
 }
 
-h2 {
+.case-block h2 {
 	font-size:3rem;
-	font-weight:800;
 }
-h3 {
-	font-size:1.75rem;
+.case-block h3 {
+	font-size:2rem;
 }
 .logo {
 	float:left;

@@ -69,6 +69,13 @@
                     Aliquam feugiat mi eros. Morbi facilisis, felis vel interdum aliquet, leo purus luctus velit, eget pharetra leo orci non mauris. Donec neque lorem, blandit quis convallis id, vulputate vulputate nisi. Donec volutpat congue felis eget pellentesque. Vestibulum mollis a sapien ut convallis. Vestibulum sagittis feugiat leo et tincidunt. Suspendisse massa nibh, pretium feugiat molestie sed, ullamcorper ac dolor. Nullam est purus, elementum sed tortor non, luctus tempus felis. Suspendisse vestibulum sed eros a dignissim. Donec dolor dui, facilisis eget augue quis, pulvinar mattis velit.                <br><br></p>
     </div>
 
+
+    <section class="case-block image-only center">
+              <picture>
+                  <img src="../img/dali/ejemplo.png" srcset="../img/dali/ejemplo.png 1x, ../img/dali/ejemplo@2x.png 2x">
+              </picture>
+          </section>
+
         <!-- navegación footer-->
         <div class="container" data-aos="fade-up" style="margin-top: 3rem;margin-bottom: 1rem;">
                 <div class="row">
@@ -87,7 +94,7 @@
                   </div>          
                 </div>  
               </div>
-    
+
 
         <!-- footer-->
         <footer class="footer"data-aos="fade-up">
@@ -120,5 +127,17 @@
             <script src="../js/footer.js">
                 // FOOTER COLOR
             </script>
+            <script>
+                    var prevScrollpos = window.pageYOffset;
+                    window.onscroll = function() {
+                    var currentScrollPos = window.pageYOffset;
+                      if (prevScrollpos > currentScrollPos) {
+                        document.getElementById("navbar").style.top = "0";
+                      } else {
+                        document.getElementById("navbar").style.top = "-50px";
+                      }
+                      prevScrollpos = currentScrollPos;
+                    }
+                    </script>
     </body>
     </html>
