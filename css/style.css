@@ -5,14 +5,14 @@
 
 #humo{
 	display: block;
-	-webkit-mask-image: url('https://www.webdesignerdepot.com/cdn-origin/uploads7/3-simple-tricks-for-adding-texture-to-your-text-with-css-and-svg/demo/images/texture.png');
+	-webkit-mask-image: url('../img/humo.png');
 	-webkit-transition:all 2s ease;
 	-moz-transition:all 2s ease;
 	-o-transition:all 2s ease;
 	transition:all 2s ease;
 }
 	#humo:hover{
-	-webkit-mask-image: url('https://www.webdesignerdepot.com/cdn-origin/uploads7/3-simple-tricks-for-adding-texture-to-your-text-with-css-and-svg/demo/images/texture-hover.png');
+	-webkit-mask-image: url('../img/humo-texture.png');
 }
 
 /* scroll down en movimiento*/
