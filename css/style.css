@@ -1036,6 +1036,7 @@ footer h3 {
 }
 
 /* Mobile only style */
+
 @media (max-width:767px) {
 
 	.center {
@@ -1145,7 +1146,7 @@ footer h3 {
 		font-size: 17px;
 	}
 	footer h3 {
-		font-size:22px;
+		font-size:20px;
 	}
 
 	.margin-top{
