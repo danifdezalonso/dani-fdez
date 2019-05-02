@@ -15,8 +15,41 @@
 	-webkit-mask-image: url('../img/humo-texture.png');
 }
 
-/* scroll down en movimiento*/
 
+/* Menú navegación lateral */
+.menu-lateral {
+  position: fixed;
+  z-index: 1;
+  font-size: 1rem;
+  color:black;
+  bottom:5%;
+	padding-left: 5%;
+	
+	transition: 0.5s;
+	visibility: visible;
+	opacity: 1;
+}
+
+.menu-lateral.hide {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.menu-lateral a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu-lateral a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.menu-lateral .active a {
+  font-weight: bold;
+}
+
+/* scroll down en movimiento*/
 .scroll-down {
 	position: relative;
 	left: 50%;
@@ -654,7 +687,7 @@ text-decoration: none;}
 }
 
 .footer{
-	text-align: center;
+	text-align: center
 }
 
 .center-img{
@@ -1187,5 +1220,9 @@ visibility: hidden;
 		visibility: hidden;
 	}
 	#humo{
-		-webkit-mask-image: none;
+		-webkit-mask-image: none;}
+	
+		.menu-lateral{
+			display: none;
+	}
 }
