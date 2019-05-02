@@ -239,7 +239,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio amet animi facilis similique perspiciatis consequuntur fugiat neque quos nemo assumenda, ab incidunt necessitatibus esse numquam perferendis et debitis, excepturi in! Rerum amet impedit non ratione nemo minus repellendus officia, a expedita incidunt commodi quo possimus soluta exercitationem fugit. Rem et, velit adipisci nesciunt tempore repellendus aspernatur natus repudiandae architecto soluta sit earum impedit dolorum distinctio necessitatibus quibusdam est iusto beatae possimus, voluptatem laudantium? Commodi voluptates sequi dolores exercitationem laborum libero sed quae nihil cum vero voluptatem assumenda illo voluptatum tempore voluptate quod rem perspiciatis natus ipsum dolorum, vitae doloribus dicta.</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row hideMenu">
           <div class="col-md-4 col-xs-12 image-wrapper">
             <div class="iphone-container iphone8">
               <div class="iphone-mockup light">
@@ -400,13 +400,13 @@
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, ea odit? Ex sed omnis quae amet officiis quos praesentium facere ad fugit quis. Perferendis deserunt quos rerum officiis officia amet dolor tempore ducimus iusto accusamus labore voluptate, sequi asperiores ab dignissimos non temporibus facilis? Natus eveniet expedita nam laboriosam voluptatum?</p>
         </div>
       </div>
-      <iframe width="100%" height="550px" src="https://www.youtube.com/embed/Bu2DZQDXFUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      <iframe class="hideMenu" width="100%" height="550px" src="https://www.youtube.com/embed/Bu2DZQDXFUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
       </iframe>
     </div>
   </section>
   
   <!-- navegación footer-->
-  <div class="container" data-aos="fade-up">
+  <div class="container hideMenu" data-aos="fade-up">
     <div class="row" style="justify-content:space-between;margin-left: 10px;margin-right: 10px;">
       <div class="nav-footer">
         <a href="bac.html" rel="prev" title="Capstone">
@@ -425,7 +425,7 @@
   </div>
   
   <!--footer-->
-  <footer class="footer"data-aos="fade-up">
+  <footer class="footer hideMenu" data-aos="fade-up">
     <div class="a-container">
       <section id="mainfooter">
         <h3 class="a-left">
@@ -497,7 +497,7 @@
       });
     });
 
-    // Esconder menu en imagenes
+    // Esconder menu en imagenes con la class "hideMenu"
     document.getElementsByTagName('body')[0].onscroll = function() {
       const menu = document.getElementById('menu-lateral')
       
