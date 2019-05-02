@@ -454,14 +454,7 @@
   <!-- GRT Youtube Popup -->
   <script src="../grt-responsive-menu.js"></script>
   <!--Animaciones AOS quitadas en mobile-->
-  <script>
-    AOS.init({
-      disable: function() {
-        var maxWidth = 800;
-        return window.innerWidth < maxWidth;
-      }
-    });
-  </script>
+  <script>AOS.init();</script>
   <!--Footer color-->
   <script src="../js/footer.js"></script> 
   <!--Flecha arriba al hacer scrolldown-->
@@ -550,7 +543,7 @@
       });
     });
   </script>
-  
+  <script src="js/myscript.js"></script>
 </body>
 </html>
 
