@@ -392,7 +392,7 @@
   </section>
 
   <!--Video promo-->
-  <section class="case-block menuTitle" data-aos="fade-up" data-idmenu="menu-video">
+  <section class="case-block menuTitle" data-aos="fade-up" data-idmenu="menu-video" style="margin-top:-80px;">
     <div class="container">
       <div class="row justify-content-md-center" id="video">
         <div class="col-md-8 col-xs-12">
@@ -497,7 +497,7 @@
       });
     });
 
-    // Esconder menu en imagenes con la class "hideMenu"
+    // Esconder menu en imagenes con la class "hideMenu" + data-idmenu="menu-XXXXX"
     document.getElementsByTagName('body')[0].onscroll = function() {
       const menu = document.getElementById('menu-lateral')
       
