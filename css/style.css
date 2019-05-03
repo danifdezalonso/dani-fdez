@@ -1258,4 +1258,7 @@ visibility: hidden;
 	.socialnav {
 		display: grid!important;
 	}
+	#invision-embed{
+		display: none!important;
+	}
 }
