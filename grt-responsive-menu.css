@@ -65,14 +65,12 @@ nav.socialnav a{
 	display:inline-block;
 	padding-top:16px;
 	color:white;
-	margin-right: 0px;
 	text-decoration: none;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	transition: all 0.3s;
-}
 }
 
 
@@ -339,4 +337,6 @@ ul.grt-menu li a:hover {
 		display: block;
 		font-size: 17px;
 	}
+	nav.socialnav a{
+		margin-right: 0px;
 }
