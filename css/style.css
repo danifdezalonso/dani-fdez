@@ -506,10 +506,13 @@ body#background-capstone{
 .center{
 	text-align: center;
 }
+section div a {
+	font-size:18px;
+	font-weight: 500;
+}
 div a {
 	color: black;
 	text-decoration: underline;
-
 }
 
 div a:hover {
