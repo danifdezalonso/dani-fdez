@@ -1,9 +1,7 @@
 // Flecha arriba al hacer scrolldown
 // When the user scrolls down 20px from the top of the document, show the button
-  window.onscroll = function() {scrollFunction()};
-  
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  function checkGoTopArraw() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
       document.getElementById("myBtn").style.display = "block";
     } else {
       document.getElementById("myBtn").style.display = "none";
@@ -21,9 +19,12 @@
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
       
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth'
-      });
+      const target = document.querySelector(this.getAttribute('href'))
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
     });
   });
 
@@ -69,7 +70,14 @@
     return elementBottom > viewportTop && elementTop < viewportBottom;
   };
 
+  $(document).ready(function() {
+      checkGoTopArraw();
+  });
+  
   $(window).on('resize scroll', function() {
+    checkGoTopArraw();
+
+    // Check menu items
     $('.menuTitle').each(function() {
       const itemMenu = $('#' + $(this).data('idmenu'));
       if ($(this).isInViewport()) {
