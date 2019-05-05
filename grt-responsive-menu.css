@@ -226,6 +226,7 @@ ul.grt-menu li a:hover {
 	ul.grt-menu li.grt-dropdown:hover > a + ul.grt-dropdown-list {
 		display:block;
 		top: calc(100% - 17px);
+		background-color: white;
 	}
 	
 	ul.grt-menu li.grt-dropdown ul.grt-dropdown-list li {

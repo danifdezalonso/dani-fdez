@@ -155,6 +155,7 @@ ul.grt-menu li {
 	-webkit-transition: all ease 0.8s;
 	-moz-transition: all ease 0.8s;
 	transition: all ease 0.8s;
+
 }
 
 ul.grt-menu li a {
@@ -250,6 +251,7 @@ ul.grt-menu li a:hover {
 	.menu-container {
 		padding-left: 15px;
 		padding-right: 15px;
+		
 	}
 	
 	.grt-mobile-button {
