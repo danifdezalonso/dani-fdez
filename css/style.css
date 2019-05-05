@@ -5,17 +5,10 @@
 #margin-iframe{
 margin-top:-120px;
 }
+/* LOGO */
+.grt-menu-logo a img:hover{
+	filter: drop-shadow(0px 2px 2px gray);
 
-#humo{
-	display: block;
-	-webkit-mask-image: url('../img/humo.png');
-	-webkit-transition:all 2s ease;
-	-moz-transition:all 2s ease;
-	-o-transition:all 2s ease;
-	transition:all 2s ease;
-}
-	#humo:hover{
-	-webkit-mask-image: url('../img/humo-texture.png');
 }
 /* row de tools*/
 .herramientas {
@@ -882,6 +875,10 @@ header nav {
 	margin-top:24px;
 }
 
+.grt-menu-logo{
+	z-index: 2!important;
+}
+
 a.grt-logo {
 	display:inline-block;
 }
@@ -890,6 +887,7 @@ a.grt-logo img {
 	max-height: 60px;
     width: auto;
 }
+
 
 .grt-mobile-button {
 	display:none;
