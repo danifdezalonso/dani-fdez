@@ -354,10 +354,16 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <!-- GRT Youtube Popup -->
     <script src="../grt-responsive-menu.js"></script>
-    <!-- AOS Libreria de animación  -->
-    <script>AOS.init();</script>
-    <script src="../js/footer.js">
-        // FOOTER COLOR
+  <!--Animaciones AOS quitadas en mobile-->
+  <script>AOS.init(
+      {
+        duration: 400,
+        disable:'mobile',
+        once: true,
+    }
+    );
+    </script>
+    <script src="../js/footer.js">// FOOTER COLOR
     </script>
 </body>
 </html>

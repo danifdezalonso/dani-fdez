@@ -356,9 +356,15 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus libero dolor p
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- GRT Youtube Popup -->
   <script src="../grt-responsive-menu.js"></script>
-  <!--Animaciones AOS quitadas en mobile-->
-  <script>AOS.init();</script>
-  <!--Footer color-->
+   <!--Animaciones AOS quitadas en mobile-->
+   <script>AOS.init(
+      {
+        duration: 400,
+        disable:'mobile',
+        once: true,
+    }
+    );
+    </script>   <!--Footer color-->
   <script src="../js/footer.js"></script> 
   <script src="../js/myscript.js"></script>
 </body>
