@@ -1100,6 +1100,7 @@ footer h3 {
     display:none;
   }
 }
+
 /* Mobile only style */
 @media (max-width:767px) {
 
@@ -1210,7 +1211,7 @@ footer h3 {
 		font-size: 17px;
 	}
 	footer h3 {
-		font-size:22px;
+		font-size:18px;
 	}
 
 	.margin-top{
