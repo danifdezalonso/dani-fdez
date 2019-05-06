@@ -5,11 +5,6 @@
 #margin-iframe{
 margin-top:-120px;
 }
-/* LOGO */
-.grt-menu-logo a img:hover{
-	filter: drop-shadow(0px 2px 2px gray);
-
-}
 
 /* row de tools*/
 .herramientas {
