@@ -705,7 +705,15 @@ text-decoration: none;}
 }
 
 .bac{
-	background-color: #408AB4;
+	background-color: rgb(89, 168, 214);
+}
+
+.cafosa{
+	background-color: rgb(247, 178, 247);
+}
+
+.extra{
+	background-color: rgb(149, 229, 203);
 }
 
 .footer{
