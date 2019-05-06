@@ -47,6 +47,7 @@ margin-top:-120px;
 	transition: 0.3s;
 	visibility: visible;
 	opacity: 1;
+	font-weight: 500;
 }
 
 .menu-lateral.hide {
@@ -65,7 +66,8 @@ margin-top:-120px;
 }
 
 .menu-lateral .active a {
-  font-weight: 700;
+	font-weight: 800;
+	margin-left:5px;
 }
 
 /* scroll down en movimiento*/
@@ -458,6 +460,8 @@ body#background-capstone{
 
 .container p{
 	font-size:1.125rem;
+	line-height:1.2;
+	font-weight: 500;
 }
 
 
@@ -502,7 +506,7 @@ body#background-capstone{
 }
 section div a {
 	font-size:18px;
-	font-weight: 500;
+	font-weight: 800;
 }
 div a {
 	color: black;
@@ -622,9 +626,9 @@ div a:hover {
 	}
 
 .bienvenida {
-	padding-top:12.5%;
+	padding-top:15%;
 	line-height: 1.25;
-	margin-bottom: 10%;
+	margin-bottom: 15%;
 	color: black;
 }
 
