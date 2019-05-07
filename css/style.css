@@ -455,11 +455,14 @@ body#background-capstone{
 
 .container p{
 	font-size:1.125rem;
-	line-height:1.2;
+	line-height:1.4;
 	font-weight: 400;
 }
 
-
+.importante-case-study-safely{
+	background-color:#d7cbf1;
+	padding:4%;
+}
 .container ul{
 	font-size:21px;
 }
@@ -1101,6 +1104,13 @@ footer h3 {
 		visibility: hidden;
 	}
 }
+
+@media (min-width:768px) {
+	#invision-embed{
+		display: block;
+	}
+}
+
 @media (max-width:933px) {
   .menu-lateral{
     display:none;
@@ -1275,13 +1285,12 @@ visibility: hidden;
 	#margin-iframe{
 		margin-top:0px;
 		}
-}
 
 #invision-embed {
 	display: none;
 }
-@media (min-width:768px) {
-	#invision-embed{
-		display: block;
-	}
+.importante-case-study-safely {
+	background-color: #d7cbf1;
+	padding: 10%;
+}
 }
