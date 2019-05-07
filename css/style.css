@@ -463,6 +463,22 @@ body#background-capstone{
 	background-color:#d7cbf1;
 	padding:4%;
 }
+.importante-case-study-safely ul{
+	padding-left: 25px;
+}
+.importante-case-study-safely li {
+	list-style-type: disc;
+	font-size: 1.125rem;
+}
+
+.listado-animaciones ul{
+	padding-left: 25px;
+}
+.listado-animaciones li{
+	list-style-type: disc;
+	font-size: 1.125rem;
+}
+}
 .container ul{
 	font-size:21px;
 }
