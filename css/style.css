@@ -132,6 +132,21 @@ margin-top:-120px;
 .active {
 	text-decoration-color:black!important;
 }
+
+.boton-mas{
+  border: 2px solid black;
+	border-radius: 5px;
+	padding:10px 54px;
+	background-color: white;
+}
+
+.boton-mas:hover{
+background-color: gray;
+border: 2px solid black;
+color:white;
+
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -471,6 +486,12 @@ body#background-capstone{
 	font-size: 1.125rem;
 }
 
+.listado-animaciones{
+	padding:4%;
+}
+.bg-gray{
+	background-color:#E8E8E8;
+}
 .listado-animaciones ul{
 	padding-left: 25px;
 }
