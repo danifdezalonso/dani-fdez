@@ -133,19 +133,6 @@ margin-top:-120px;
 	text-decoration-color:black!important;
 }
 
-.boton-mas{
-  border: 2px solid black;
-	border-radius: 5px;
-	padding:10px 54px;
-	background-color: white;
-}
-
-.boton-mas:hover{
-background-color: gray;
-border: 2px solid black;
-color:white;
-
-}
 
 .center {
   display: block;
