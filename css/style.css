@@ -6,6 +6,161 @@
 margin-top:-120px;
 }
 
+/* biblioteca */
+.main-content {
+	flex: 1;
+}
+
+.no-gutters {
+	margin-right: 0;
+	margin-left: 0;
+}
+.ml-auto, .mx-auto {
+	margin-left: auto!important;
+}
+.mb-4, .my-4 {
+	margin-bottom: 2rem!important;
+}
+.align-items-end {
+	align-items: flex-end!important;
+}
+.mt-1, .my-1 {
+	margin-top: .25rem!important;
+}
+.col-7 {
+	flex: 0 0 43.75%;
+	max-width: 43.75%;
+}
+.book div {
+	transition: all .3s ease-in-out;
+	position: relative;
+}
+.o-hidden {
+	overflow: hidden;
+}
+.img-preview, .img-progressive {
+	position: "absolute";
+}
+.w-100 {
+	width: 100%!important;
+}
+.ml-auto, .mx-auto {
+	margin-left: auto!important;
+}
+.mr-auto, .mx-auto {
+	margin-right: auto!important;
+}
+.container-lazyload, .img-preview, .img-progressive {
+	transition: all .3s ease-in-out;
+}
+.book div:before {
+	background-image: url('https://zerox.me/static/images/books/book-layer-3.png');
+	opacity: .64;
+	z-index: -1;
+	width: 116%;
+	height: 113%;
+	left: -8%;
+	top: -3%;
+}
+.book div:after {
+	background-image: url('https://zerox.me/static/images/books/book-layer-1.png'),url('https://zerox.me/static/images/books/book-layer-2.png');
+}
+.book div:after, .book div:before {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: block;
+	top: 0;
+	left: 0;
+	content: "";
+	background-size: 100% 100%;
+}
+.img-fluid, .img-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+.container-lazyload {
+	position: relative;
+	height: 0;
+}
+.book div{
+	transition:all .3s ease-in-out;
+	position:relative
+}
+@media (prefers-reduced-motion:reduce){
+	.book div{transition:none}
+}
+.book div:hover{
+	-webkit-transform:scale(1.04);
+	transform:scale(1.04)
+}
+.book div img{
+	border-radius:4px
+}
+.book div:after,.book div:before{
+	position:absolute;
+	height:100%;
+	width:100%;
+	display:block;
+	top:0;
+	left:0;
+	content:"";
+	background-size:100% 100%
+}
+.book div:before{
+	background-image:url('https://zerox.me//static/images/books/book-layer-3.png');
+	opacity:.64;
+	z-index:-1;
+	width:116%;
+	height:113%;
+	left:-8%;
+	top:-3%
+}
+.book div:after{
+	background-image:url('https://zerox.me//static/images/books/book-layer-1.png'),url('https://zerox.me//static/images/books/book-layer-2.png')
+}
+.book div{
+	transition:all .3s ease-in-out;
+	position:relative
+}
+@media (prefers-reduced-motion:reduce){
+	.book div{
+		transition:none
+	}
+}
+.book div:hover{
+	-webkit-transform:scale(1.04);transform:scale(1.04)
+}
+.book div img{
+	border-radius:4px
+}
+.book div:after,.book div:before{
+	position:absolute;
+	height:100%;
+	width:100%;
+	display:block;
+	top:0;
+	left:0;
+	content:"";
+	background-size:100% 100%
+}
+.book div:before{
+	background-image:url('../img/libros/book-layer-3.png');
+	opacity:.64;
+	z-index:-1;
+	width:116%;
+	height:113%;
+	left:-8%;
+	top:-3%
+}
+.book div:after{
+	background-image:url('../img/libros/book-layer-1.png'),url('../img/libros/book-layer-2.png')
+}
+
+.libro{
+font-size: 1.25rem;
+font-weight: 500;
+}
 /* row de tools*/
 .herramientas {
   -webkit-box-pack: justify;
@@ -511,6 +666,10 @@ body#background-capstone{
 .margin-75 {
 	margin:auto;
 	width:75%;
+}
+.margin-70 {
+	margin:auto;
+	width:70%;
 }
 
 .subtitulo{
@@ -1260,6 +1419,9 @@ footer h3 {
 
 	.margin-75{
 		width: 100%;
+	}
+	.margin-70 {
+		width:70%;
 	}
 
 	#arrow-down{
