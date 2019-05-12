@@ -661,7 +661,9 @@ body#background-capstone{
 .margin-top {
 	margin-top:100px!important;
 }
-
+.margin-top-mini {
+	margin-top:50px!important;
+}
 
 .margin-75 {
 	margin:auto;
@@ -1415,6 +1417,9 @@ footer h3 {
 
 	.margin-top{
 		margin-top: 10px!important;
+	}
+	.margin-top-mini{
+		margin-top: 5px!important;
 	}
 
 	.margin-75{
