@@ -477,7 +477,7 @@ section.case-block.three-column .a-container{
 .inline-video{
   z-index: -1;
   position: relative;
-  height: 545px;
+  height: 546px;
   visibility: visible;
   opacity: 1;
   -webkit-transition-property: visibility, opacity;
