@@ -165,7 +165,6 @@ font-weight: 500;
 .herramientas {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -669,11 +668,6 @@ body#background-capstone{
 	margin:auto;
 	width:75%;
 }
-.margin-70 {
-	margin:auto;
-	width:70%;
-}
-
 .subtitulo{
 	font-weight: 500;
 	color:#9EA0A6;
@@ -1425,9 +1419,6 @@ footer h3 {
 	.margin-75{
 		width: 100%;
 	}
-	.margin-70 {
-		width:100%;
-	}
 
 	#arrow-down{
 		display: none;
@@ -1464,6 +1455,10 @@ visibility: hidden;
 	}
 	.menu-lateral{
 			display: none;
+	}
+
+	.herramientas{
+		justify-content: center;
 	}
 	.herramientas li svg{
     width: 56px;
