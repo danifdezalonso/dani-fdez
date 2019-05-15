@@ -677,6 +677,7 @@ body#background-capstone{
 .titulo {
 	font-weight:500;
 	font-size:3rem;
+	line-height: 1;
 }
 .center{
 	text-align: center;
