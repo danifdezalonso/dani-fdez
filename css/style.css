@@ -294,7 +294,7 @@
 }
 
 .herramientas li svg{
-	width: 80px;
+	width: 60px;
 	margin: 5px;
 }
 
@@ -1585,7 +1585,7 @@ nav a:hover {
 				justify-content: center;
 			}
 			.herramientas li svg{
-				width: 56px;
+				width: 40px;
 				margin:10px;
 			}
 			.socialnav {
