@@ -740,6 +740,20 @@ body#background-capstone{
 	font-size: 1.125rem;
 }
 
+.importante-case-study-capstone{
+	background-color:#FFCC00;
+	padding:4%;
+}
+.importante-case-study-capstone ul{
+	padding-left: 25px;
+}
+.importante-case-study-capstone li {
+	list-style-type: disc;
+	font-size: 1.125rem;
+}
+
+
+
 .listado-animaciones{
 	padding:4%;
 }
@@ -1601,6 +1615,11 @@ nav a:hover {
 			}
 			.importante-case-study-safely {
 				background-color: #d7cbf1;
+				padding: 10%;
+			}
+
+			.importante-case-study-capstone {
+				background-color:#FFCC00;
 				padding: 10%;
 			}
 
