@@ -5,7 +5,9 @@
 #margin-iframe{
 	margin-top:-120px;
 }
-
+.profile {
+	width: 60%!important;
+}
 /* Loading */
 
 #loader-wrapper {
@@ -1437,7 +1439,9 @@ nav a:hover {
 			animation: spin 2.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 			z-index: 1001;
 		}
-		
+		.profile {
+			width: 100%!important;
+		}
 		.center {
 			width:100%;
 		}
