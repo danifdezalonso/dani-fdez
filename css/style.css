@@ -1,6 +1,6 @@
 *{
 	box-sizing: border-box;
-	font-family: 'Eina','Cabin'!important;
+	font-family: 'Eina','Cabin'!important, "FontAwesome";
 }
 #margin-iframe{
 	margin-top:-120px;
