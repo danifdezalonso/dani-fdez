@@ -953,6 +953,13 @@ div a:hover {
 	padding:0;
 	animation: fadeIn 1s;
 }
+.my-work{
+	font-size: 2rem;
+	font-weight: 700;
+	margin:0;
+	padding:0;
+	animation: fadeIn 1s;
+}
 h1 {
 	visibility:hidden;
 }
@@ -1345,6 +1352,9 @@ nav a:hover {
 		}
 		.my-name {
 			font-size: 2rem;
+		}
+		.my-work {
+			font-size:1.5rem;
 		}
 		
 		.leer-mas-link a {
