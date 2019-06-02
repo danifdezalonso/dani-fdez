@@ -955,10 +955,11 @@ div a:hover {
 }
 .my-work{
 	font-size: 2rem;
-	font-weight: 700;
+	font-weight: 600;
 	margin:0;
 	padding:0;
 	animation: fadeIn 1s;
+	margin-top: 
 }
 h1 {
 	visibility:hidden;
