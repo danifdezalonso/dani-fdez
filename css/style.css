@@ -1,6 +1,6 @@
 *{
 	box-sizing: border-box;
-	font-family: 'Eina','Cabin'!important, "FontAwesome";
+	font-family: 'Apercu','Cabin'!important, "FontAwesome";
 }
 #margin-iframe{
 	margin-top:-120px;
@@ -338,7 +338,7 @@
 /* botón move to ton*/
 #myBtn {
 	transform: scale(2.5);
-	font-family: 'Eina';
+	font-family: 'Apercu';
 	font-size: 12px;
 	position: fixed;
 	bottom: 20px;
@@ -400,7 +400,7 @@ blockquote{
 }
 
 blockquote::before{
-	font-family:Arial;
+	font-family:'Apercu';
 	content: "\201C";
 	color:black;
 	font-size:4em;
@@ -680,7 +680,7 @@ body#background-capstone{
 	text-decoration: underline;
 }
 .container{
-	font-family: "Eina";
+	font-family: "Apercu";
 }
 
 .container p{
@@ -1287,7 +1287,7 @@ nav a:hover {
 	}
 	
 	footer {
-		font-family: "Eina"
+		font-family: "Apercu";
 	}
 	
 	footer h3 {
