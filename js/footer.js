@@ -47,3 +47,16 @@ $(document)
             });
 
 
+            $(document)
+                .ready(function () {
+                    
+                    $( ".socialnav a.github" ).hover(
+                        function() {
+                            $(".footer").addClass("footer-github");
+                        }, function() {
+                            $(".footer").removeClass("footer-github");
+                        }
+                    );
+            });
+
+

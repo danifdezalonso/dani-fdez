@@ -30,12 +30,17 @@
 	background-color: #00acee;
 }
 
+.footer-github{
+	background-color: black;
+	color:white;
+}
+
 .footer-instagram {
 	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);5;
 }
 
 .socialnav a:hover {
-	color:black;
+	color:white;
 }
 /* fin de colores del footer*/
 
