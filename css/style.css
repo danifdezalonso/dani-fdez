@@ -783,6 +783,11 @@ div a {
 div a:hover {
 	color: black;
 }
+
+.information-project{
+	margin-top: 4px;
+	border-bottom: 1px solid #838383;
+}
 /* elimina estilo botón bootstrap*/
 .btn {
 	padding: 14px 24px;
